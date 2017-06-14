@@ -1,0 +1,13 @@
+def tip_tax():
+
+    tax_rate = 0.05
+    tip_rate = 0.18
+    
+    meal = input("pls enter cost of meal:")
+    
+    tax = meal+tax_rate
+    tip = meal+tip_tax
+    total = meal + tax +tip
+    print("Total is ${}".format(total))
+    
+tip_tax()
